@@ -670,6 +670,7 @@ class Stub
   end
 
   def any_number_of_times
+    @pass = true
     @count_restriction = nil
     self
   end
